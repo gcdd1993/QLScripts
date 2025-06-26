@@ -5,7 +5,7 @@
  * 格式：完整的Cookie字符串，包含bbs_sid、bbs_token等必要信息
  * 多账号：使用@分隔多个Cookie
  *
- * cron: 0 8 * * *  # 每天上午8点执行
+ * cron: 0 8 * * *
  */
 const $ = new Env("夸父资源社签到");
 
