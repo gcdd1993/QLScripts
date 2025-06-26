@@ -1,0 +1,1 @@
+注册后开始抓包，点击开始阅读，排除.qq.com结尾的抓包，找GET类型的请求，复制里面的cookie，全都复制保存下来，佬友们可以参考我的user_openid=？？？; uid=？？; PHPSESSID=？？？  ，创建环境变量，变量名：ddzyd，值为：备注#cookie#提现金额（元）#wxpusher的apptoken#主题id#提现支付宝名字#支付宝账号，备注可以随便填。
