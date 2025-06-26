@@ -1,28 +1,12 @@
 /**
  * 夸父资源社签到脚本
  *
- * @description 自动完成夸父资源社的每日签到
- * @author AI Assistant
- * @version 1.0.0
- * @license MIT
- *
  * 变量名：KUAFU_COOKIE
  * 格式：完整的Cookie字符串，包含bbs_sid、bbs_token等必要信息
  * 多账号：使用@分隔多个Cookie
  *
  * cron: 0 8 * * *  # 每天上午8点执行
  */
-
-// {{CHENGQI:
-// Action: Added
-// Timestamp: [2025-01-27 11:45:00 +08:00]
-// Reason: 创建基础脚本结构，实现P3-LD-001检查清单项
-// Principle_Applied: KISS(保持简洁), SRP(单一职责), DRY(复用现有架构)
-// Optimization: 参考项目中成熟的脚本结构设计
-// Architectural_Note (AR): 采用与项目其他脚本一致的架构模式，确保可维护性
-// Documentation_Note (DW): 添加详细的文档注释，便于用户理解和配置
-// }}
-
 const $ = new Env("夸父资源社签到");
 
 // 配置常量
